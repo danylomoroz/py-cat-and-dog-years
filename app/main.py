@@ -19,6 +19,7 @@ def get_human_age(cat_age: int, dog_age: int) -> list:
         get_human_age(24, 24) == [2, 2]
     """
 
+
     if cat_age == 0 and dog_age == 0:
         return [0, 0]
 
